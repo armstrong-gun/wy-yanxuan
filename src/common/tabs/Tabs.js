@@ -13,8 +13,8 @@ export default class Tabs extends Component {
         return (
             <nav className="tabs app-tabs">
                 <NavLink className="tab" to="/home">首页</NavLink>
-                <NavLink className="tab" to="/topic">识物</NavLink>
                 <NavLink className="tab" to="/item">分类</NavLink>
+                <NavLink className="tab" to="/topic">识物</NavLink>
                 <NavLink className="tab" to="/cart">购物车</NavLink>
                 <NavLink className="tab" to="/mine">我的</NavLink>
             </nav>
