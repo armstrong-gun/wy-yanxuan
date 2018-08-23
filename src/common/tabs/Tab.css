@@ -1,0 +1,13 @@
+.app-tabs {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: .49rem;
+  width: 100%;
+  background: #ccc;
+  display: flex; }
+
+.tab {
+  font-size: .32rem;
+  line-height: .32rem;
+  flex: 1; }

@@ -1,0 +1,23 @@
+html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,form,img,select,fieldset,textarea{margin:0;padding:0;}
+img{border:0;}
+i,em{font-style:normal;}
+b,strong{font-weight:normal;}
+ul li,ol li{list-style:none;}
+a{font-size:12px;text-decoration:none;cursor: pointer;}
+a:focus,a:hover{text-decoration:none;}
+input{outline:none;}
+textarea{resize:none;}
+body{font-size:12px;font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;}
+.fl{float:left;}
+.fr{float:right;}
+.clear:after{content:".";width:0;height:0;overflow:hidden;display:block;font-size:0;
+visibility:hidden;clear:both;}
+.bln{border-left:none;_display:inline;}
+.brn{border-right:none;_display:inline;}
+.psr{position:relative;}
+.psa{position:absolute;}
+
+<!--[if It IE9]>
+<script src="html5shiv.js">
+</script>
+<![end if]-->
